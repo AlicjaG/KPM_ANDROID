@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alicja.myapplication.MainActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/slowpoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:src="@drawable/slow"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/bober"
+        android:layout_width="361dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_margin="10dp"
+        android:text="BOBER"
+        android:textSize="30dp"
+        android:layout_above="@id/slowpoke"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:src="@drawable/policja"
+
+        android:layout_above="@id/bober"
+        />
+
+</RelativeLayout>
